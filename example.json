@@ -1,0 +1,707 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 1045,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "OeRULj9YIGYC",
+   "etag": "CGbqaW1ZABk",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/OeRULj9YIGYC",
+   "volumeInfo": {
+    "title": "Englisches Rückversicherungsrecht and the London Market",
+    "subtitle": "Standardprobleme in Beispielfällen",
+    "authors": [
+     "Bastian Meyenburg",
+     "Andreas Stahl"
+    ],
+    "publisher": "VVW GmbH",
+    "publishedDate": "2006-01-02",
+    "description": "Der Londoner Markt ist der bedeutendste Marktplatz für international ausgerichtete Versicherungs- und Rückversicherungsunternehmen. Eine genaue Kenntnis der Funktionsweise des Londoner Versicherungsmarktes ist unerlässlich für jeden, der beruflich mit ihm befasst ist. Die Autoren stellen anhand einer umfassenden Einleitung und 10 Musterfällen die Besonderheiten des Londoner Marktes und die wichtigsten Probleme des englischen Versicherungs- und Rückversicherungsrechts dar. Schwerpunkte bilden die unterschiedlichen Vertragsverhältnisse der Marktteilnehmer untereinander sowie die sich daraus ergebenden Rechte und Pflichten zwischen Versicherungsnehmer, Zedent, Rückversicherer und Makler oder Broker. Unter anderem wird die Thematik von Follow the Leader, Follow the Settlements, Avoidance bei Non-Disclosure und Misrepresentation, Warranties, Commutations und Arbitration ausführlich behandelt. Dem Leser wird anhand der Fälle ein Praxisbezug gegeben, der die Lektüre vereinfachen und kurzweiliger gestalten soll. Daneben sind die Fälle meist an eine oder mehrere Grundsatzentscheidungen englischer Gerichte angelehnt. Der Falltext wird durch einen umfangreichen Fußnotenapparat ergänzt, der es gestattet, die behandelte Thematik über Verweise auf weiterführende Literatur und Rechtsprechung zu vertiefen. So soll sowohl dem Einsteiger ein Einblick in die Problematik, als auch dem Branchenkenner eine umfassende Lösung einzelner Fragestellungen zur Verfügung gestellt werden. Die Arbeit wird ergänzt durch ein umfangreiches Glossar, das die englischen Begriffe zusammenfassend erläutert. Außerdem finden sich im Anhang eine Sammlung aller zitierten Entscheidungen und eine Auswahl von Musterdokumenten, wie sie im Londoner Versicherungsmarkt Verwendung finden.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "3899522249"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9783899522242"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 271,
+    "printType": "BOOK",
+    "categories": [
+     "Law"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.1.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=OeRULj9YIGYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=OeRULj9YIGYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.at/books?id=OeRULj9YIGYC&pg=PA31&dq=the&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.at/books?id=OeRULj9YIGYC&dq=the&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Englisches_R%C3%BCckversicherungsrecht_and_t.html?hl=&id=OeRULj9YIGYC"
+   },
+   "saleInfo": {
+    "country": "AT",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "AT",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=OeRULj9YIGYC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Follow \u003cb\u003ethe\u003c/b\u003e Settlements – Burden of Proof – Ex Gratia Zahlungen – Claims Co-\u003cbr\u003e\noperation Klausel Rückversicherungsverträge enthalten fast immer eine follow \u003cbr\u003e\n\u003cb\u003ethe\u003c/b\u003e settlements Klausel (F/S clause). Sie beinhaltet die Regelung, dass der&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "zNoRAAAAIAAJ",
+   "etag": "RtI9Ve3WAks",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/zNoRAAAAIAAJ",
+   "volumeInfo": {
+    "title": "A Dictionary of the English and German, and the German and English Language: German and English",
+    "authors": [
+     "Joseph Leonhard Hilpert"
+    ],
+    "publishedDate": "1846",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "NYPL:33433069238875"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "printType": "BOOK",
+    "categories": [
+     "English language"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.3.1.0.full.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=zNoRAAAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=zNoRAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.at/books?id=zNoRAAAAIAAJ&pg=PA22&dq=the&hl=&cd=2&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=zNoRAAAAIAAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-zNoRAAAAIAAJ"
+   },
+   "saleInfo": {
+    "country": "AT",
+    "saleability": "FREE",
+    "isEbook": true,
+    "buyLink": "https://play.google.com/store/books/details?id=zNoRAAAAIAAJ&rdid=book-zNoRAAAAIAAJ&rdot=1&source=gbs_api"
+   },
+   "accessInfo": {
+    "country": "AT",
+    "viewability": "ALL_PAGES",
+    "embeddable": true,
+    "publicDomain": true,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "downloadLink": "http://books.google.at/books/download/A_Dictionary_of_the_English_and_German_a.pdf?id=zNoRAAAAIAAJ&hl=&output=pdf&sig=ACfU3U1nLwQW0qgKTRhbOuXmt3D_3zRgIg&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=zNoRAAAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "–schmerz, m. pain in \u003cb\u003ethe\u003c/b\u003e bowels, belly-ache. –schneiden, n cutting pain in \u003cb\u003ethe\u003c/b\u003e \u003cbr\u003e\nbowels, griping. –schneider, m. tailor to a king, prince &amp;c. –schnitt, m.waist in a \u003cbr\u003e\ncoat or other garment. –schuster, m.shoemaker to aking, princc &amp;c. –schütz, n."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "kLMRAAAAIAAJ",
+   "etag": "meb5INnzJAU",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/kLMRAAAAIAAJ",
+   "volumeInfo": {
+    "title": "A Complete Greek and English Lexicon of the Poems of Homer and the Homeridae ... from the German of G. Ch. Crusius",
+    "authors": [
+     "Gottlieb Christian Crusius"
+    ],
+    "publishedDate": "1844",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "NYPL:33433074395678"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 542,
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.2.2.0.full.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=kLMRAAAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=kLMRAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.at/books?id=kLMRAAAAIAAJ&pg=PA205&dq=the&hl=&cd=3&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=kLMRAAAAIAAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-kLMRAAAAIAAJ"
+   },
+   "saleInfo": {
+    "country": "AT",
+    "saleability": "FREE",
+    "isEbook": true,
+    "buyLink": "https://play.google.com/store/books/details?id=kLMRAAAAIAAJ&rdid=book-kLMRAAAAIAAJ&rdot=1&source=gbs_api"
+   },
+   "accessInfo": {
+    "country": "AT",
+    "viewability": "ALL_PAGES",
+    "embeddable": true,
+    "publicDomain": true,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "downloadLink": "http://books.google.at/books/download/A_Complete_Greek_and_English_Lexicon_of.pdf?id=kLMRAAAAIAAJ&hl=&output=pdf&sig=ACfU3U0dSKqmZVu9TyWu1vUMRVey4-atxg&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=kLMRAAAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "148, since \u003cb\u003ethe\u003c/b\u003e long a in &#39;Egialog contravenes analogy.) égiyun.og, m, or (gvysir), \u003cbr\u003e\nloud-bellowing, epith. of an ox, Il. 18, 580. † éovyov, see geüyou«. égvôairo, poet\u003cbr\u003e\n. for égvögairo, to redden; only mid. to make oneselfred, to blush, * Il. 10,484."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "ozpkAAAAcAAJ",
+   "etag": "UOWFRmxzfTc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/ozpkAAAAcAAJ",
+   "volumeInfo": {
+    "title": "Fables and Parables from the German of Lessing, Herder (Krummacher and others).",
+    "publishedDate": "1845",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "BL:A0020414626"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 72,
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.0.0.full.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=ozpkAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=ozpkAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.at/books?id=ozpkAAAAcAAJ&pg=PA16&dq=the&hl=&cd=4&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=ozpkAAAAcAAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-ozpkAAAAcAAJ"
+   },
+   "saleInfo": {
+    "country": "AT",
+    "saleability": "FREE",
+    "isEbook": true,
+    "buyLink": "https://play.google.com/store/books/details?id=ozpkAAAAcAAJ&rdid=book-ozpkAAAAcAAJ&rdot=1&source=gbs_api"
+   },
+   "accessInfo": {
+    "country": "AT",
+    "viewability": "ALL_PAGES",
+    "embeddable": true,
+    "publicDomain": true,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=ozpkAAAAcAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "\u003cb\u003eThe\u003c/b\u003e Shepherd and \u003cb\u003ethe\u003c/b\u003e Nightingale. \u003cb\u003eThe\u003c/b\u003e Possessor of \u003cb\u003ethe\u003c/b\u003e Bow • * * . \u003cb\u003eThe\u003c/b\u003e \u003cbr\u003e\nNightingale and \u003cb\u003ethe\u003c/b\u003e Lark... . \u003cb\u003eThe\u003c/b\u003e Ghost of Solomon - . \u003cb\u003eThe\u003c/b\u003e Present of \u003cb\u003ethe\u003c/b\u003e Fairies - \u003cbr\u003e\n65. \u003cb\u003eThe\u003c/b\u003e Sheep and \u003cb\u003ethe\u003c/b\u003e Swallow ... 66. \u003cb\u003eThe\u003c/b\u003e Raven -- -- 67. \u003cb\u003eThe\u003c/b\u003e Dispute for rank \u003cbr\u003e\namong&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "h4T9YdACaCkC",
+   "etag": "ywRCYOi5PKk",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/h4T9YdACaCkC",
+   "volumeInfo": {
+    "title": "Practical Navigation: Or An Introduction to the Whole Art",
+    "subtitle": "Containing The Doctrine of Plain and Spherical Triangles. Plain, Mercator, Great-Circle Sailing; and Astronomical Problems. The Use of Divers Instruments ... Sundry Useful Tables in Navigation: And a Table of 10000 Logarithms, and of the Logarithm-Sines, Tangents, and Secants",
+    "authors": [
+     "John Seller"
+    ],
+    "publishedDate": "1694",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "DMM:057001330815"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 355,
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.2.1.0.full.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=h4T9YdACaCkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=h4T9YdACaCkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.at/books?id=h4T9YdACaCkC&pg=PA250&dq=the&hl=&cd=5&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=h4T9YdACaCkC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-h4T9YdACaCkC"
+   },
+   "saleInfo": {
+    "country": "AT",
+    "saleability": "FREE",
+    "isEbook": true,
+    "buyLink": "https://play.google.com/store/books/details?id=h4T9YdACaCkC&rdid=book-h4T9YdACaCkC&rdot=1&source=gbs_api"
+   },
+   "accessInfo": {
+    "country": "AT",
+    "viewability": "ALL_PAGES",
+    "embeddable": true,
+    "publicDomain": true,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=h4T9YdACaCkC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Containing \u003cb\u003eThe\u003c/b\u003e Doctrine of Plain and Spherical Triangles. Plain, Mercator, Great-\u003cbr\u003e\nCircle Sailing; and Astronomical Problems. \u003cb\u003eThe\u003c/b\u003e Use of Divers Instruments ... \u003cbr\u003e\nSundry Useful Tables in Navigation: And a Table of 10000 Logarithms, and of \u003cb\u003ethe\u003c/b\u003e\u003cbr\u003e\n&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "vGdiAAAAcAAJ",
+   "etag": "sUdHNjGhD1s",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/vGdiAAAAcAAJ",
+   "volumeInfo": {
+    "title": "A Practical Grammar of the German Language",
+    "authors": [
+     "Johann Gerhard TIARKS"
+    ],
+    "publishedDate": "1834",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "BL:A0020139416"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 256,
+    "printType": "BOOK",
+    "categories": [
+     "German language"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.0.0.full.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=vGdiAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=vGdiAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.at/books?id=vGdiAAAAcAAJ&pg=PA33&dq=the&hl=&cd=6&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=vGdiAAAAcAAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-vGdiAAAAcAAJ"
+   },
+   "saleInfo": {
+    "country": "AT",
+    "saleability": "FREE",
+    "isEbook": true,
+    "buyLink": "https://play.google.com/store/books/details?id=vGdiAAAAcAAJ&rdid=book-vGdiAAAAcAAJ&rdot=1&source=gbs_api"
+   },
+   "accessInfo": {
+    "country": "AT",
+    "viewability": "ALL_PAGES",
+    "embeddable": true,
+    "publicDomain": true,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=vGdiAAAAcAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "N. das Thal, \u003cb\u003ethe\u003c/b\u003e valley; G. des Thales, of \u003cb\u003ethe\u003c/b\u003e valley; D. dem Thale, to \u003cb\u003ethe\u003c/b\u003e valley; A. \u003cbr\u003e\ndas Thal, \u003cb\u003ethe\u003c/b\u003e valley; N. der Geist, \u003cb\u003ethe\u003c/b\u003e spirit; G. des Geistes, ofthe spirit; D. dem \u003cbr\u003e\nGeiste, to \u003cb\u003ethe\u003c/b\u003e spirit; A. den Geist, \u003cb\u003ethe\u003c/b\u003e spirit; die Thäler,\u003cb\u003ethe\u003c/b\u003e vallies. der Thäler, ofthe\u003cbr\u003e\n&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "xDdOLobm3FQC",
+   "etag": "c+VyD71UV/I",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/xDdOLobm3FQC",
+   "volumeInfo": {
+    "title": "Jewish Studies Between the Disciplines",
+    "authors": [
+     "Peter Schèafer",
+     "Klaus Herrmann",
+     "Margarete Schlèuter",
+     "Giuseppe Veltri"
+    ],
+    "publisher": "BRILL",
+    "publishedDate": "2003-01-01",
+    "description": "Peter Schafer, Professor and Director of the Institute for Judaic Studies at the Free University Berlin as well as Professor of Religion and Ronald O. Perelman Professor for Jewish Studies at Princeton University, celebrated his 60th birthday on 29 June 2003. In honor of this occasion 23 of his students are presenting the collection of essays in this volume.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "9004135650"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9789004135659"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 502,
+    "printType": "BOOK",
+    "categories": [
+     "Religion"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.1.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=xDdOLobm3FQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=xDdOLobm3FQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.at/books?id=xDdOLobm3FQC&pg=PA3&dq=the&hl=&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.at/books?id=xDdOLobm3FQC&dq=the&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Jewish_Studies_Between_the_Disciplines.html?hl=&id=xDdOLobm3FQC"
+   },
+   "saleInfo": {
+    "country": "AT",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "AT",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=xDdOLobm3FQC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "\u003cb\u003eTHE\u003c/b\u003e EXPOSURE AND SALE OF INFANTS IN RABBINIC AND ROMAN LAW \u003cbr\u003e\nCatherine Hezser Dublin \u003cb\u003eThe\u003c/b\u003e exposure and sale of infants by their fathers \u003cbr\u003e\nconstituted an important source of slaves in antiquity. Both of these phenomena \u003cbr\u003e\nalso had&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "kEtYP0fK_LAC",
+   "etag": "bOUZNAvRzRM",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/kEtYP0fK_LAC",
+   "volumeInfo": {
+    "title": "The Seaman's Manual",
+    "authors": [
+     "Richard Henry Dana"
+    ],
+    "publisher": "BoD – Books on Demand",
+    "publishedDate": "2013-02",
+    "description": "This book written by the American politician, lawyer and expert for maritime law Richard Henry Dana (1815-1882) contains a treatise on practical seamanship, a dictionary of sea terms, an account of the customs and usages of the Merchant Service and a discussion of the laws relating to the practical duties of Masters and Mariners. Reprint of the original English edition from 1841.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9783954272716"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "3954272717"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 292,
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=kEtYP0fK_LAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=kEtYP0fK_LAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.at/books?id=kEtYP0fK_LAC&pg=PA7&dq=the&hl=&cd=8&source=gbs_api",
+    "infoLink": "http://books.google.at/books?id=kEtYP0fK_LAC&dq=the&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/The_Seaman_s_Manual.html?hl=&id=kEtYP0fK_LAC"
+   },
+   "saleInfo": {
+    "country": "AT",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "AT",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=kEtYP0fK_LAC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "But- a narrow, high-built vessel should have \u003cb\u003ethe\u003c/b\u003e heavy articles stowed low and \u003cbr\u003e\nnear \u003cb\u003ethe\u003c/b\u003e keelson, which will tend to keep her from being crank, and enable her to \u003cbr\u003e\ncarry sail to more advantage. CHAPTER II. &#39;UUTTIN G AND FITTING BTANDIING\u003cbr\u003e\n&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "BeKFBwAAQBAJ",
+   "etag": "JsGmGyYveow",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/BeKFBwAAQBAJ",
+   "volumeInfo": {
+    "title": "A Unified Theory of the Nucleus",
+    "authors": [
+     "Karl Wildermuth"
+    ],
+    "publisher": "Springer-Verlag",
+    "publishedDate": "2013-03-08",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9783322852557"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "3322852555"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 389,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Nonfiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.3.1.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=BeKFBwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=BeKFBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.at/books?id=BeKFBwAAQBAJ&pg=PA160&dq=the&hl=&cd=9&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=BeKFBwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-BeKFBwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "AT",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 42.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 42.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=BeKFBwAAQBAJ&rdid=book-BeKFBwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 4.299E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 4.299E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "AT",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.at/books/download/A_Unified_Theory_of_the_Nucleus-sample-pdf.acsm?id=BeKFBwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=BeKFBwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "By using eq. (9.14) for WD, one obtains after selecting \u003cb\u003ethe\u003c/b\u003e partial wave WDj \u003cbr\u003e\nwhich has \u003cb\u003ethe\u003c/b\u003e same spin and parity as V8 \u003cb\u003ethe\u003c/b\u003e following expression: (V8 H-El/5) \u003cbr\u003e\na1 = - ––. (9.37) E8 – E – Aj(E)-; T, (E) Thus one realizes that for sharp \u003cbr\u003e\nresonances,&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "ICPiL9s_N2kC",
+   "etag": "BCiDvV2IQMs",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/ICPiL9s_N2kC",
+   "volumeInfo": {
+    "title": "The Sea West of Spitsbergen",
+    "authors": [
+     "Fridtjof Nansen",
+     "Bjorn Helland-Hansen"
+    ],
+    "publisher": "BoD – Books on Demand",
+    "publishedDate": "2012-08",
+    "description": "Since its discovery in 1596 Spitsbergen - the beautiful island of arctic Norway - has been the destination of many expeditions from different nations. Some of the most important research on the island was led by Gunnar Isachsen. The Norwegian army officer and polar scientist collected valuable topographic and bathymetric data and became the founder of his country's systematic research on Spitsbergen. In 1912, Fritjof Nansen - the popular arctic explorer and scientist - and his assistant Bjørn Helland-Hansen published a summary of the oceanographic observations made by Isachsen on his last journey to the island in 1910.Reprint of the original edition.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9783954272075"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "3954272075"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 104,
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.0.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=ICPiL9s_N2kC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=ICPiL9s_N2kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.at/books?id=ICPiL9s_N2kC&pg=PA54&dq=the&hl=&cd=10&source=gbs_api",
+    "infoLink": "http://books.google.at/books?id=ICPiL9s_N2kC&dq=the&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/The_Sea_West_of_Spitsbergen.html?hl=&id=ICPiL9s_N2kC"
+   },
+   "saleInfo": {
+    "country": "AT",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "AT",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=ICPiL9s_N2kC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Kl. \\Ve may thus get an explanation of \u003cb\u003ethe\u003c/b\u003e generally low salinities of \u003cb\u003ethe\u003c/b\u003e deepest \u003cbr\u003e\nand coldest water at \u003cb\u003ethe\u003c/b\u003e lsaehsen stations. Fig. 39 gives \u003cb\u003ethe\u003c/b\u003e observations in 2000 \u003cbr\u003e\nmetres at \u003cb\u003ethe\u003c/b\u003e lsnchsen and \u003cb\u003ethe\u003c/b\u003e Amundsen stations, and in 1800 metres at \u003cb\u003ethe\u003c/b\u003e&nbsp;..."
+   }
+  }
+ ]
+}
