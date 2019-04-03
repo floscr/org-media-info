@@ -53,6 +53,10 @@ QUERY for the search query"
        "map({ "
           "id: .id, "
           "title: .volumeInfo.title, "
+          "publishedDate: .volumeInfo.publishedDate, "
+          "description: .volumeInfo.description, "
+          "pageCount: .volumeInfo.pageCount, "
+          "link: .volumeInfo.infoLink, "
           "authors: (.volumeInfo.authors | if length > 0 then . else [] end)"
        "})'")))))
 
@@ -68,16 +72,29 @@ X for the cons list"
 (defun org-media--ivy-book-data-cons (xs)
   (--reduce-from (-snoc acc (cons (org-media--reduce-book-author-title it) it)) '() xs))
 
-(org-media--ivy-book-data-cons json-data)
+(if-let ((title (alist-get 'no '((subtitle . no))))) title)
 
-(defun org-media-insert-book (&optional action)
+(defun org-media--insert-org-item (x)
+  (org-insert-heading)
+  (let* ((data (cdr x))
+         (title (alist-get 'title data))
+         (authors (alist-get 'authors data)))
+    (insert title)
+    (if (not (null authors)) (org-set-property "AUTHORS" (s-join ", " authors)))
+    (if-let ((subtitle (alist-get 'subtitle data))) (org-set-property "SUBTITLE" subtitle))
+    (if-let ((description (alist-get 'description data))) (org-set-property "DESCRIPTION" description))
+    (if-let ((pageCount (alist-get 'pageCount data))) (org-set-property "PAGECOUNT" (int-to-string pageCount)))
+    (if-let ((publishedDate (alist-get 'publishedDate data))) (org-set-property "PUBLISHEDDATE" publishedDate))
+    (if-let ((link (alist-get 'link data))) (org-set-property "LINK" link))
+    (org-beginning-of-line)))
+
+(defun org-media--ivy-insert-book (query &optional action)
   "Show book titles in ivy.
 QUERY for the search query
 ACTION for an alternative action"
+  (ivy-read "Book: " (org-media--ivy-book-data-cons (org-media--book-data query))
+    :action 'org-media--insert-org-item))
+
+(defun org-media-insert-book ()
   (interactive)
-  (ivy-read "Book: " (org-media--ivy-book-data-cons json-data)))
-
-(org-media-insert-book)
-
-
-(setq json-data (org-media--ivy-book-data-cons "the game"))
+  (org-media--ivy-insert-book (read-string "Query: ")))
