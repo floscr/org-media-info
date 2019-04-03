@@ -31,71 +31,14 @@
 ;;;; Require
 
 (require 'dash)
+(require 's)
 (require 'json)
 (require 'ivy)
 (require 'org)
-(require 'ht)
 
+;;; Main
 
-(defstruct book title authors publisher published-date)
-
-(defun org-media-info--extract-json-values (item)
-  "Extract attribute from result of api.
-ITEM is each book information."
-  (let ((title "")
-        (author "")
-        (publisher "")
-        (publishedDate ""))
-    (dolist (i item)
-      (when (string= "volumeInfo" (car i))
-        (dolist (j (cdr i))
-          (when (string= "title" (car j))
-            (setq title (cdr j)))
-          (when (string= "authors" (car j))
-            (setq author (cdr j)))
-          (when (string= "publisher" (car j))
-            (setq publisher (cdr j)))
-          (when (string= "publishedDate" (car j))
-            (setq publishedDate (cdr j))))))
-
-    (make-book
-     :title title
-     :authors author
-     :publisher publisher
-     :published-date publishedDate)))
-
-(defun org-media-info--query-google (query)
-  "Retrieve information of book using google books api.
-QUERY for the search query"
-  (switch-to-buffer
-   (url-retrieve-synchronously
-    (concat "https://www.googleapis.com/books/v1/volumes?q=" query)))
-  (let ((response-string (buffer-substring-no-properties
-                          url-http-end-of-headers (point-max))))
-    (kill-buffer (current-buffer))
-    (json-read-from-string (decode-coding-string response-string 'utf-8))))
-
-(defun org-media-info--retrieve-info (query)
-  "Retrieve information of book using google books api.
-QUERY for the search query"
-  (mapcar 'org-media-info--extract-json-values (cdr (nth 2 (org-media-info--query-google query)))))
-
-(setq items (org-media-info--retrieve-info "the game"))
-
-(defun my-action (cons-item)
-  (let ((item (cdr cons-item)))
-    (message "authors: %s" (format "%s" (book-authors item)))))
-
-(message "%s" (mapconcat 'identity (list "1" "2" "3") ", "))
-
-(mapconcat 'identity (book-authors (cdr lol)) ", ")
-
-(ivy-read "lol" (--map (cons (book-title it) it) items)
-          :action 'my-action)
-
-;;; Test
-
-(defun org-media--get-book-data (query)
+(defun org-media--book-data (query)
   "Retrieve information of book using google books api.
 Reduce json with jq, since it's way easier too manage.
 QUERY for the search query"
@@ -113,10 +56,28 @@ QUERY for the search query"
           "authors: (.volumeInfo.authors | if length > 0 then . else [] end)"
        "})'")))))
 
-(defun org-media--ivy-book (query &optional action)
-  "Show results in ivy
-QUERY for the search query")
+(defun org-media--reduce-book-author-title (x)
+  "Convert to string list in format AUTHOR: TITLE
+X for the cons list"
+  (let ((title (alist-get 'title x))
+        (authors (s-join ", " (alist-get 'authors x))))
+    (if (string= "" authors)
+        title
+      (format "%s:\n%s\n" authors title))))
 
-(--reduce-from (-snoc acc (alist-get 'title it)) '() json-data)
+(defun org-media--ivy-book-data-cons (xs)
+  (--reduce-from (-snoc acc (cons (org-media--reduce-book-author-title it) it)) '() xs))
 
-(setq json-data (org-media--get-book-data "the game"))
+(org-media--ivy-book-data-cons json-data)
+
+(defun org-media-insert-book (&optional action)
+  "Show book titles in ivy.
+QUERY for the search query
+ACTION for an alternative action"
+  (interactive)
+  (ivy-read "Book: " (org-media--ivy-book-data-cons json-data)))
+
+(org-media-insert-book)
+
+
+(setq json-data (org-media--ivy-book-data-cons "the game"))
