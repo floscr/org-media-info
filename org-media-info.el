@@ -112,7 +112,11 @@ ACTION for an alternative action"
 (defun org-media-insert-book ()
   "Query for a book and insert entry as org item."
   (interactive)
-  (org-media--ivy-insert-book (read-string "Query: ")))
+  (let ((query (or (if (use-region-p)
+                       (buffer-substring-no-properties (region-beginning)
+                                                       (region-end)))
+                   "")))
+    (org-media--ivy-insert-book (read-string "Query: " query))))
 
 (provide 'org-media-info)
 ;;; org-media-info.el ends here
