@@ -61,6 +61,16 @@ QUERY for the search query"
           "authors: (.volumeInfo.authors | if length > 0 then . else [] end)"
        "})'")))))
 
+(defun org-media--date-string-to-org-timestamp (str &optional active)
+  "Convert string to org timestamp.
+STR for the date string
+ACTIVE for active timestamp"
+  (--> str
+       (org-read-date nil 'totime it)
+       (let* ((org-user-format (cdr org-time-stamp-formats))
+              (format (unless active (concat "[" (substring org-user-format 1 -1) "]"))))
+         (format-time-string format it))))
+
 (defun org-media--reduce-book-author-title (x)
   "Convert to string list in format AUTHOR: TITLE
 X for the cons list"
@@ -86,6 +96,8 @@ X for the cons list"
     (if-let ((description (alist-get 'description data))) (org-set-property "DESCRIPTION" description))
     (if-let ((pageCount (alist-get 'pageCount data))) (org-set-property "PAGECOUNT" (int-to-string pageCount)))
     (if-let ((publishedDate (alist-get 'publishedDate data))) (org-set-property "PUBLISHEDDATE" publishedDate))
+    (if-let ((publishedDate (alist-get 'publishedDate data)))
+        (org-set-property "DATE_PUBLISHED" (org-media--date-string-to-org-timestamp publishedDate)))
     (if-let ((link (alist-get 'link data))) (org-set-property "LINK" link))
     (org-beginning-of-line)))
 
