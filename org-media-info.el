@@ -38,6 +38,8 @@
 
 ;;; Main
 
+(defcustom org-media-language "en" "Language for the results.")
+
 (defun org-media--book-data (query)
   "Retrieve information of book using google books api.
 Reduce json with jq, since it's way easier too manage.
@@ -49,6 +51,7 @@ QUERY for the search query"
        "curl -s -G https://www.googleapis.com/books/v1/volumes"
        ;; Encode the query
        " --data-urlencode \"q=" query "\""
+       " --data-urlencode \"langRestrict=" org-media-language "\""
        " | "
        "jq -r '.items | "
        "map({ "
