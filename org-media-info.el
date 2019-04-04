@@ -123,5 +123,11 @@ ACTION for an alternative action"
                    "")))
     (org-media--ivy-insert-book (read-string "Query: " query))))
 
+(defun org-media-insert-book-german ()
+  "Insert book from german db."
+  (interactive)
+  (let ((org-media-language "de"))
+    (call-interactively #'org-media-insert-book)))
+
 (provide 'org-media-info)
 ;;; org-media-info.el ends here
