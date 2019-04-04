@@ -110,5 +110,9 @@ ACTION for an alternative action"
     :action 'org-media--insert-org-item))
 
 (defun org-media-insert-book ()
+  "Query for a book and insert entry as org item."
   (interactive)
   (org-media--ivy-insert-book (read-string "Query: ")))
+
+(provide 'org-media-info)
+;;; org-media-info.el ends here
