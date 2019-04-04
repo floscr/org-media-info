@@ -102,6 +102,7 @@ X for data"
     (if-let ((pageCount (alist-get 'pageCount data))) (org-set-property "PAGES" (int-to-string pageCount)))
     (if-let ((publishedDate (alist-get 'publishedDate data)))
         (org-set-property "DATE_PUBLISHED" (org-media--date-string-to-org-timestamp publishedDate)))
+    (org-set-property "DATE_ADDED" (org-media--date-string-to-org-timestamp (format-time-string "%Y-%m-%d")))
     (if-let ((link (alist-get 'link data))) (org-set-property "LINK" link))
     (org-beginning-of-line)))
 
