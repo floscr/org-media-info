@@ -72,7 +72,7 @@ ACTIVE for active timestamp"
          (format-time-string format it))))
 
 (defun org-media--reduce-book-author-title (x)
-  "Convert to string list in format AUTHOR: TITLE
+  "Convert to string list in format AUTHOR: TITLE.
 X for the cons list"
   (let ((title (alist-get 'title x))
         (authors (s-join ", " (alist-get 'authors x))))
@@ -81,11 +81,13 @@ X for the cons list"
       (format "%s:\n%s\n" authors title))))
 
 (defun org-media--ivy-book-data-cons (xs)
+  "Convert to ivy cons with (entry . data)
+XS for data"
   (--reduce-from (-snoc acc (cons (org-media--reduce-book-author-title it) it)) '() xs))
 
-(if-let ((title (alist-get 'no '((subtitle . no))))) title)
-
 (defun org-media--insert-org-item (x)
+  "Insert book as org item.
+X for data"
   (org-insert-heading)
   (let* ((data (cdr x))
          (title (alist-get 'title data))
