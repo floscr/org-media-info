@@ -46,8 +46,9 @@ QUERY for the search query"
     (json-read-from-string
      (shell-command-to-string
       (concat
-       "curl -s https://www.googleapis.com/books/v1/volumes\\?q\\="
-       query
+       "curl -s -G https://www.googleapis.com/books/v1/volumes"
+       ;; Encode the query
+       " --data-urlencode \"q=" query "\""
        " | "
        "jq -r '.items | "
        "map({ "
