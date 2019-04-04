@@ -57,6 +57,7 @@ QUERY for the search query"
        "map({ "
           "id: .id, "
           "title: .volumeInfo.title, "
+          "subtitle: .volumeInfo.subtitle, "
           "publishedDate: .volumeInfo.publishedDate, "
           "description: .volumeInfo.description, "
           "pageCount: .volumeInfo.pageCount, "
@@ -93,11 +94,11 @@ XS for data"
 X for data"
   (org-insert-heading)
   (let* ((data (cdr x))
-         (title (alist-get 'title data))
+         (subtitle (if-let ((subtitle (alist-get 'subtitle data))) (concat " - " subtitle)))
+         (title (concat (alist-get 'title data) subtitle))
          (authors (alist-get 'authors data)))
     (insert title)
     (if (not (null authors)) (org-set-property "AUTHORS" (s-join ", " authors)))
-    (if-let ((subtitle (alist-get 'subtitle data))) (org-set-property "SUBTITLE" subtitle))
     (if-let ((description (alist-get 'description data))) (org-set-property "DESCRIPTION" description))
     (if-let ((pageCount (alist-get 'pageCount data))) (org-set-property "PAGES" (int-to-string pageCount)))
     (if-let ((publishedDate (alist-get 'publishedDate data)))
