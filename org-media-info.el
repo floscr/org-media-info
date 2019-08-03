@@ -1,9 +1,9 @@
-;;; org-media-info ---  Org Mode -*- lexical-binding: t; -*-
+;;; org-media-info.el --- Fetch information about media items -*- lexical-binding: t; -*-
 
 ;; Author: Florian Schroedl <flo.schroedl@gmail.com>
 ;; Url: https://github.com/floscr/org-media-info
 ;; Version: 1.0.0
-;; Package-Requires: ((emacs "24.4") (dash "2.12") (f "0.18.1") (helm "1.9.4") (org "9.1.9") (helm-org-rifle "1.7.0-pre"))
+;; Package-Requires: ((emacs "24.4") (dash "2.12") (org "9.1.9") (s "20180406.808") (json "1.4") (ivy "0.12.0"))
 ;; Keywords: bookmaking
 
 ;; This file is not part of GNU Emacs.
