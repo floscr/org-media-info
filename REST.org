@@ -1,0 +1,11 @@
+#+TITLE: Rest
+
+Testing ground for the rest APIs using [[https://github.com/pashky/restclient.el/blob/master/examples/httpbin][restclient.el]].
+
+* Sources
+
+** Google Books
+
+#+BEGIN_SRC restclient
+GET https://www.googleapis.com/books/v1/volumes?q=moby+dick
+#+END_SRC
