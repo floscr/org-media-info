@@ -65,14 +65,30 @@
                                                  "\n")))
                         (cons ivy-string x))))))
 
+(defun counsel-org-media--date-string-to-org-timestamp (str &optional active)
+  "Convert string to org timestamp.
+STR for the date string
+ACTIVE for active timestamp"
+  (--> (org-read-date nil 'totime str)
+       (let* ((org-user-format (cdr org-time-stamp-formats))
+              (format (unless active (concat "[" (substring org-user-format 1 -1) "]"))))
+         (format-time-string format it))))
+
 (defun counsel-org-media--update-org-item (x)
   "Query for a book and insert entry as org item."
   (interactive)
   (let* ((volume-info (alist-get 'volumeInfo x))
          (authors (-some->> (alist-get 'authors volume-info)
-                    (s-join ", "))))
+                    (s-join ", ")))
+         (description (alist-get 'description volume-info))
+         (published-date (-some--> (alist-get 'publishedDate volume-info)
+                           (counsel-org-media--date-string-to-org-timestamp it)))
+         (created-date (counsel-org-media--date-string-to-org-timestamp (format-time-string "%Y-%m-%d"))))
     (org-set-property "AUTHORS" authors)
-    (org-set-property "AUTHORS" authors)))
+    (org-set-property "DESCRIPTION" description)
+    (org-set-property "CREATED" created-date)
+    (org-set-property "PAGE_COUNT" (alist-get 'pageCount volume-info))
+    (org-set-property "LINK" (alist-get 'link volume-info))))
 
 (defun counsel-org-media-books (query)
   (interactive "sFetch Book: ")
