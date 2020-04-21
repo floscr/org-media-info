@@ -35,7 +35,6 @@
 (require 'json)
 (require 'ivy)
 (require 'org)
-(require 'om)
 
 ;;; Main
 
