@@ -3,7 +3,7 @@
 ;; Author: Florian Schroedl <flo.schroedl@gmail.com>
 ;; Url: https://github.com/floscr/org-media-info
 ;; Version: 2.0.0
-;; Package-Requires: ((emacs "24.4") (dash "2.12") (org "9.1.9") (s "20180406.808") (json "1.4") (ivy "0.12.0") (om "1.2.0"))
+;; Package-Requires: ((emacs "24.4") (dash "2.12") (org "9.1.9") (s "20180406.808") (json "1.4") (ivy "0.12.0"))
 ;; Keywords: bookmaking
 
 ;; This file is not part of GNU Emacs.
