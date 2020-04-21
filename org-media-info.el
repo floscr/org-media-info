@@ -75,19 +75,21 @@ ACTIVE for active timestamp"
          (format-time-string format it))))
 
 (defun counsel-org-media--update-org-item--set-property-alist (property key alist)
+  "Set org PROPERTY when KEY in ALIST exists."
   (-some->> (alist-get key alist)
     (format "%s")
     (org-set-property property)))
 
 (defun counsel-org-media--update-org-item--set-property (property value)
+  "Set org PROPERTY when VALUE exists."
   (-some->> value
     (format "%s")
     (org-set-property property)))
 
-(defun counsel-org-media--update-org-item (x)
-  "Query for a book and insert entry as org item."
+(defun counsel-org-media--update-org-item (data)
+  "Update current org headline properties with DATA."
   (interactive)
-  (let* ((volume-info (alist-get 'volumeInfo x)))
+  (let* ((volume-info (alist-get 'volumeInfo data)))
     (->> (format-time-string "%Y-%m-%d")
          (counsel-org-media--date-string-to-org-timestamp)
          (org-set-property "CREATED"))
@@ -112,11 +114,13 @@ ACTIVE for active timestamp"
       (counsel-org-media--update-org-item--set-property "COVER_IMAGE" it))))
 
 (defun counsel-org-media-books (query)
+  "Search the google books database for QUERY and update the current org headline."
   (interactive "sFetch Book: ")
   (ivy-read "Select Book: " (counsel-org-media--process-google-books-data query)
             :action #'counsel-org-media--update-org-item))
 
 (defun counsel-org-media-books-on-entry ()
+  "Search the google books database for the current headline and update it's properties."
   (interactive)
   (let ((query (-some->> (om-parse-this-headline)
                     (om-get-property :raw-value))))
