@@ -86,9 +86,10 @@ ACTIVE for active timestamp"
          (created-date (counsel-org-media--date-string-to-org-timestamp (format-time-string "%Y-%m-%d"))))
     (org-set-property "AUTHORS" authors)
     (org-set-property "DESCRIPTION" description)
+    (org-set-property "PUBLISHED" published-date)
     (org-set-property "CREATED" created-date)
-    (org-set-property "PAGE_COUNT" (alist-get 'pageCount volume-info))
-    (org-set-property "LINK" (alist-get 'link volume-info))))
+    (org-set-property "PAGE_COUNT" (format "%s" (alist-get 'pageCount volume-info)))
+    (org-set-property "LINK" (alist-get 'selfLink x))))
 
 (defun counsel-org-media-books (query)
   (interactive "sFetch Book: ")
