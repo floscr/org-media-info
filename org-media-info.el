@@ -118,12 +118,12 @@ ACTIVE for active timestamp"
   (ivy-read "Select Book: " (counsel-org-media--process-google-books-data query)
             :action #'counsel-org-media--update-org-item))
 
-(defun counsel-org-media-books-on-entry ()
-  "Search the google books database for the current headline and update it's properties."
-  (interactive)
-  (let ((query (-some->> (om-parse-this-headline)
-                    (om-get-property :raw-value))))
-    (counsel-org-media-books query)))
+;; (defun counsel-org-media-books-on-entry ()
+;;   "Search the google books database for the current headline and update it's properties."
+;;   (interactive)
+;;   (let ((query (-some->> (om-parse-this-headline)
+;;                     (om-get-property :raw-value))))
+;;     (counsel-org-media-books query)))
 
 (defun counsel-org-media-books-german ()
   "Insert book from german db."
